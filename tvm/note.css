@@ -1,0 +1,116 @@
+body {
+    min-height: 35rem;
+
+  
+  background-image: url('images/141.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: .8;
+  position: relative;
+  }
+
+  .entry{
+    margin-top: 80px;
+    width: 472px;
+    height: auto;
+    background-color: aqua;
+    margin-left: 200px;
+   
+
+}
+.lab{
+    background-color:antiquewhite;
+    pointer-events: none;
+    height: 25px;
+    width: 150px ;
+    font-size: larger;
+    text-align: right;
+
+
+}
+.lab3{
+    background-color:rgb(173, 105, 15);
+    pointer-events: none;
+    height: 25px;
+    width: 150px ;
+    font-size:x-large;
+    font-weight: bold;
+    text-align: right;
+
+
+}
+
+
+.lab1{
+    background-color:antiquewhite;
+    pointer-events: none;
+  height: 25px;
+  font-size:x-large;
+  width:auto;
+  
+}
+.table,th,td{
+    border: 1px solid ;
+    height: 100 px;
+    font-size: large;
+
+}
+table.table caption{
+    background-color: #f79646;
+    font-size: x-large;
+
+}
+
+table.table thead th{
+    padding: 8px;
+    background-color: #fde9d9;
+    font-size: large;
+}
+
+table.table tfoot{
+    font-weight: bold;
+    font-size: large;
+    background-color: #687886;
+    color:#fff
+}
+.main{
+    width: 780 px;
+    padding: 20 px;
+    margin: auto;
+}
+.input{
+    
+    height: 25px;
+    font-size: larger;
+    width: 120px;
+    align-content: center;
+   
+    appearance: initial;
+}
+.not{
+    text-align: center;
+    font-weight:bold;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.close{
+    align-content: center;
+}
+
+.custom-text {
+    color: red;
+    background-color: lightblue;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .custom-button {
+    background-color: purple;
+    color: white;
+  }

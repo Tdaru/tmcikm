@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Denomination Calculator </title>
+        <link rel="stylesheet" href="note.css">
+        <script src="script.js">
+            
+        </script>
+
+
+    </head>
+    <body background="#f6f6ff" >
+
+        
+        <div style=" margin-left: 200px; margin: top 180px;">
+
+        
+            
+
+        <div class="main">
+        <div class="entry">
+        <table class="table">
+            
+            <caption><h3> Cash Denomination Calculator </h3></caption>
+            <thead><tr>
+                <th>Sl No</th>
+                <th>Denomination</th>
+                <th>Count</th>
+                <th> Total</th></tr>
+              
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="not">1</td>
+                    <td class="not">2000</td>
+                    
+                    <td><input type="number" class="input" id ="2000" value="" name="2000"  onkeyup="getValue2000(this.value),calculate()"  ></td>
+                    <td><input type="label" id="2000ans" class="lab"></td>
+                </tr>
+                <tr>
+                    <td class="not">2</td>
+                    <td class="not">500</td>
+                    <td><input type="number" class="input" id ="500" value="" name="500" onkeyup="getValue500(this.value),calculate()"></td>
+                    <td><input type="label" id="500ans" class="lab"></td>
+                </tr>
+                <td class="not">3</td>
+                    <td class="not">200</td>
+                    <td><input type="number" class="input" id ="200" value="" name="200" onkeyup="getValue200(this.value),calculate()"></td>
+                    <td><input type="label" id="200ans" class="lab"></td>
+                </tr>
+                <td class="not">4</td>
+                    <td class="not">100</td>
+                    <td><input type="number" class="input" id ="100" value="" name="100" onkeyup="getValue100(this.value),calculate()"></td>
+                    <td><input type="label" id="100ans" class="lab"></td>
+                </tr>
+                <td class="not">5</td>
+                    <td class="not"> 50</td>
+                    <td><input type="number"  class="input"id ="50" value="" name="50" onkeyup="getValue50(this.value) ,calculate()"></td>
+                    <td><input type="label" id="50ans" class="lab"></td>
+                </tr>
+                <td class="not">6</td>
+                    <td class="not">20</td>
+                    <td><input type="number"  class="input"id ="20" value="" name="20" onkeyup="getValue20(this.value),calculate()"></td>
+                    <td><input type="label" id="20ans" class="lab"></td>
+                </tr>
+                <td class="not">7</td>
+                    <td class="not">10</td>
+                    <td><input type="number" class="input" id ="10" value="" name="10" onkeyup="getValue10(this.value),calculate()"></td>
+                    <td class="data"><input type="label" id="10ans" class="lab"></td>
+                </tr>
+                <td class="not">8</td>
+                    <td class="not">Coins</td>
+                    <td><input type="number"  class="input"id ="1" value="" name="Coins" onkeyup="getValue(this.value),calculate()"></td>
+                    <td><input type="label" id="coinans" class="lab" ></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    
+                    <td colspan="3" class="not">Grand Total</td>
+                    <td><input type="label" id="grandAns" class="lab3"></td>
+                </tr>
+            </tfoot>
+            
+        </table>
+        </div>
+        </div>
+
+        
+
+
+<div id="closeDiv" style=" margin-left: 325px;margin: top 20px;">
+   
+    <p class="custom-text"> For close this page plz 
+    
+
+    <button class="custom-button" onclick="closePage()">Click me</button></p>
+  </div>
+  
+  <script>
+    function closePage() {
+      var body = document.body;
+      window.location.href = "index.html";
+     
+    }
+  </script>
+
+
+
+
+
+
+       
+    
+    </body>
+
+</html>
