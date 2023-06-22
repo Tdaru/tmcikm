@@ -1,0 +1,11 @@
+body {
+    min-height: 40rem;
+  
+    
+    background-image: url('images/13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+    position: relative;
+  }
